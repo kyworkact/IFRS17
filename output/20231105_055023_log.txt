@@ -1,0 +1,27 @@
+05:50:23 | Model: 'IFRS17'
+           User: 'user'
+           Path: c:\GProject\IFRS17
+           Timestamp: 20231105_055023
+           
+           Settings:
+           - AGGREGATE: True
+           - GROUP_BY_COLUMN: code
+           - ID_COLUMN: id
+           - MULTIPROCESSING: False
+           - OUTPUT_COLUMNS: []
+           - SAVE_DIAGNOSTIC: True
+           - SAVE_LOG: True
+           - SAVE_OUTPUT: True
+           - T_MAX_CALCULATION: 60
+           - T_MAX_OUTPUT: 60
+           
+05:50:23 | Reading model components...
+           Runplan version: 1
+           Number of model points: 3
+05:50:23 | Starting calculations...
+05:50:23 | Preparing output...
+05:50:23 | Finished!
+           
+05:50:23 | Saving output file: output/20231105_055023_output.csv
+05:50:23 | Saving diagnostic file: output/20231105_055023_diagnostic.csv
+05:50:23 | Saving log file: output/20231105_055023_log.txt
