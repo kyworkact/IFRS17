@@ -16,7 +16,7 @@ def pol_term():
 
 @variable()
 def premium_pp(t):
-    return main.get("Ann_Prem")
+    return float(assumption["premium_target"].get_value("1", "Premium_Target"))
 
 @variable()
 def sum_assured_pp(t):

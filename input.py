@@ -10,9 +10,6 @@ runplan = Runplan(data=pd.DataFrame({"version": [1]}))
 data = pd.read_csv("input/model_point.csv", dtype={'Age': int})
 main = ModelPointSet(data=data)
 
-
-
-
 assumption = {
     "commission": CSVReader("input/commission.csv"),
     "discount_rate": CSVReader("input/discount_rate.csv"),
@@ -21,6 +18,6 @@ assumption = {
     "mortality": CSVReader("input/mortality.csv"),
     "prem_tax": CSVReader("input/prem_tax.csv"),
     "risk_adj": CSVReader("input/risk_adj.csv"),
-    "surr_value": CSVReader("input/surr_value.csv")
+    "surr_value": CSVReader("input/surr_value.csv"),
+    "premium_target": CSVReader("input/premium_target.csv")
 }
-
